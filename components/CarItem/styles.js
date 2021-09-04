@@ -6,6 +6,9 @@ const styles = StyleSheet.create({
 		height: '100%',
 		backgroundColor: 'red',
 	},
+	header: {
+		marginTop: 50,
+	},
 });
 
 export default styles;

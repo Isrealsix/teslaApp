@@ -4,9 +4,9 @@ import styles from './styles';
 
 const CarItem = () => {
 	return (
-		<View styles={styles.carContainer}>
+		<View style={styles.carContainer}>
 			{/* Header */}
-			<View>
+			<View style={styles.header}>
 				<Text>Settings</Text>
 				<Text>My Mobile</Text>
 				<Text>Surprise</Text>
