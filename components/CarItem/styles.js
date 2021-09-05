@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
 	carContainer: {
 		width: '100%',
 		height: '100%',
-		backgroundColor: '#ddd',
+		// backgroundColor: '#ddd',
 	},
 	header: {
 		marginTop: 50,
