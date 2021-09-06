@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
 	},
 	icon: {
 		color: '#fff',
+		fontSize: '26px',
 	},
 });
 
