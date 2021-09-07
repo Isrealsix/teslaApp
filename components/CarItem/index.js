@@ -12,6 +12,7 @@ const CarItem = () => {
 				<FontAwesomeIcon icon={faCog} style={styles.icon} size={24} />
 				<Text style={styles.headerTitle}>My Mobile</Text>
 				<FontAwesomeIcon icon={faToolbox} style={styles.icon} size={24} />
+				<FontAwesomeIcon icon={faToolbox} style={styles.icon} size={24} />
 			</View>
 		</View>
 	);
