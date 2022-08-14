@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  ScrollView,
   View,
   Text,
   ImageBackground,
@@ -51,30 +52,32 @@ const CarItem = () => {
       <View style={styles.status}>
         <Text style={styles.statusText}>Parked</Text>
       </View>
-      {/* Control Icons */}
-      <View style={styles.controls}>
-        <TouchableOpacity>
-          <View style={styles.controlsButton}>
-            <FontAwesomeIcon style={styles.icon} icon={faFan} size={24} />
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <View style={styles.controlsButton}>
-            <FontAwesomeIcon style={styles.icon} icon={faKey} size={24} />
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={clickLock}>
-          <View style={styles.controlsButton}>
-            <FontAwesomeIcon
-              style={styles.icon}
-              icon={locked ? faLock : faUnlockAlt}
-              size={24}
-            />
-          </View>
-        </TouchableOpacity>
-      </View>
-      {/* Menu */}
-      <Menu />
+      <ScrollView>
+        {/* Control Icons */}
+        <View style={styles.controls}>
+          <TouchableOpacity>
+            <View style={styles.controlsButton}>
+              <FontAwesomeIcon style={styles.icon} icon={faFan} size={24} />
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View style={styles.controlsButton}>
+              <FontAwesomeIcon style={styles.icon} icon={faKey} size={24} />
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={clickLock}>
+            <View style={styles.controlsButton}>
+              <FontAwesomeIcon
+                style={styles.icon}
+                icon={locked ? faLock : faUnlockAlt}
+                size={24}
+              />
+            </View>
+          </TouchableOpacity>
+        </View>
+        {/* Menu */}
+        <Menu />
+      </ScrollView>
     </View>
   );
 };

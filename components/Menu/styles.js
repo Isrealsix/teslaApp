@@ -28,6 +28,11 @@ const styles = StyleSheet.create({
   arrowIcon: {
     color: "#4D4D4E",
   },
+  subTitle: {
+    color: "grey",
+    fontSize: 14,
+    marginLeft: 15,
+  },
 });
 
 export default styles;
