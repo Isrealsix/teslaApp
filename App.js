@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import CarItem from "./components/CarItem/index";
+import CarItem from "./components/CarItem";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
